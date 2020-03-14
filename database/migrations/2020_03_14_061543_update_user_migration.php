@@ -7,9 +7,7 @@ use Illuminate\Database\Migrations\Migration;
 class UpdateUserMigration extends Migration
 {
     /**
-     * Run the migrations.
-     *
-     * @return void
+     * Actualizamos la migracion de usuarios que provee laravel por defecto para adaptarla al crud
      */
     public function up()
     {

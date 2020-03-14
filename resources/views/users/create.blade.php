@@ -23,6 +23,7 @@
 				
 				</div>
 			@endif
+			<!-- Mostramos los errores de validacion en caso de que los tengamos -->
 			<form action="/users" method="POST">
 				@csrf
 				<div class="row mt-4">
